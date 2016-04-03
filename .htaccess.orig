@@ -1,0 +1,17 @@
+# BEGIN WordPress
+
+# WPhtc: Begin Custom htaccess
+RewriteEngine on
+RewriteRule ^admin(.*)$ wp-admin$1 [L,NC]
+# WPhtc: End Custom htaccess
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /imageid1/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /imageid1/index.php [L]
+</IfModule>
+
+# END WordPress

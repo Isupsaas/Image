@@ -1,0 +1,68 @@
+#mymetabox_revslider_0 , #wpfooter , .update-nag, #wp-admin-bar-wp-logo, #wp-admin-bar-site-name, #wp-admin-bar-new-content, #contextual-help-link-wrap, 
+#screen-options-link-wrap, .submitbox #minor-publishing, #submitdiv .hndle, #submitdiv .handlediv, #wp-admin-bar-updates, #wp-admin-bar-comments, #adminmenuwrap, 
+#adminmenuback, #wp-admin-bar-my-account-buddypress, #wp-admin-bar-edit-profile, #setting-error-tgmpa, #wp-admin-bar-view, .search-box, #filter-by-date, #post-query-submit,
+#edit-slug-box {
+	display: none !important;
+} 
+
+/*#wpadminbar, #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap, .ab-sub-wrapper, #wp-admin-bar-my-account-buddypress, #wp-admin-bar-my-account {
+	background: green !important;
+} */
+
+#wpcontent, #wpfooter {
+	margin-left: 0 !important;
+}
+
+#wpadminbar {
+	left: 0 !important;
+	height: 80px !important;
+}
+
+
+#wpbody {
+	margin-top: 60px !important;
+}
+
+#wpadminbar .ab-item {
+	line-height: 80px !important;
+}
+
+#wpadminbar .quicklinks .ab-empty-item, #wpadminbar .quicklinks a, #wpadminbar .shortlink-input {
+	height: 80px !important;
+}
+
+#wpadminbar .ab-submenu .ab-item {
+	line-height: 26px !important;
+	height: 26px !important;
+}
+
+
+#wpadminbar, #wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {
+	background: #395597 !important;
+}
+
+
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar .ab-top-menu>li:hover>.ab-item, #wpadminbar .ab-top-menu>li>.ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus {
+	background: #5D9C48 !important;
+}
+
+.admin-logo {
+	height: 70% !important;
+	vertical-align:middle !important;
+	margin-right:5px !important;
+}
+
+.postbox {
+	background: #F1F1F1 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+#major-publishing-actions {
+	border: none !important;
+	background: #F1F1F1 !important;
+}
+
+.post-body-content {
+	margin-bottom: 0 !important;
+}
